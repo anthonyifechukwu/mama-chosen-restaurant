@@ -1,0 +1,249 @@
+body {
+    background-color: #faebd7;
+    height: 100vh;
+    margin: 0;
+}
+section .container-link {
+    border: 0px solid transparent;
+    background-color: rgb(226, 213, 213);
+    box-shadow: 0px 0px 15px grey;
+    border-radius: 15px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+}
+section .container-link h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    margin-left: 20px;
+}
+section .container-link .site {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    text-align: center;
+}
+section .container-link .site a {
+    margin: 10px;
+    text-decoration-line: none;
+    color: rgb(76, 73, 73);
+    transition: transform 1s ease;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section .container-link a:hover {
+    text-decoration-line: underline;
+    border-radius: 10px;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+}
+section .container-name {
+    background-image: url(Circle\ 6.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+section .container-name h1 {
+    color: rgb(54, 53, 53);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@keyframes name {
+    0% {
+        transform: translateX(-230%);
+    }
+    100% {
+        transform: translateX(-0);
+    }
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+    color: rgb(78, 76, 76);
+}
+section .container-food-collections {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 40px;
+    padding: 40px 60px;
+    justify-content: center;
+}
+section .container-food-collections .card {
+    border: 0px  solid #111;
+    max-width: 350px;
+    width: 100%;
+    height: 460px;   
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f8f8ff;
+}
+section .container-food-collections .card img{
+    height: 300px;
+    width: 350px;
+    object-fit: cover;
+}
+section .container-popular {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+    padding: 40px 60px;
+    justify-content: center;
+}
+section .container-popular .card {
+    border: 0px  solid #111;
+    max-width: 350px;
+    width: 100%;
+    height: 460px;   
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f8f8ff;
+}
+section .container-popular .card img {
+    height: 300px;
+    width: 350px;
+    object-fit: cover;
+}
+footer .container-why-us {
+    background-color: rgb(251, 235, 143);
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 10px;
+    gap: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+footer .container-why-us .foot {
+    text-align: center;
+    margin: 10px;
+}
+section .container-site-map {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 40px 10px;
+    gap: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(67, 63, 63);
+    color: #f8f8ff;
+}
+section .container-site-map .logo {
+
+}
+section .container-site-map .logo img {
+    height: 300px;
+    max-width: 300px;
+    width: 100%;
+}
+
+
+
+
+.wel-ab {
+    margin-top: 50px;
+    background-image: url(White\ \ Soup.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.wel-ab h1 {
+    color: rgb(54, 53, 53);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section .container-mandate {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 50px;
+    margin: 20px;
+    text-align: center;
+}
+section .container-mandate .mandate {
+    background-color: #f8f8ff;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+}
+.about-txt {
+    background-color: #f8f8ff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px;   
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+
+}
+.about-txt img {
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+}
+section .container-services {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+section .container-services .card {
+    background-color: #f8f8ff;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    height: 500px;
+    margin: 20px;
+}
+section .container-services .card img {
+    height: 300px;
+    width: 100%;
+}
+.wel-tel {
+    margin-top: 50px;
+    background-image: url(Circle\ 4.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.wel-tel h1 {
+    color: rgb(54, 53, 53);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+section .container-contact {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+section .container-contact .card {
+    background-color: #f8f8ff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

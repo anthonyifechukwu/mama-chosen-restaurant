@@ -1,0 +1,6 @@
+div .back-img {
+    background-image: url(White\ \ Soup.jpg);
+    width: 100%;
+    background-size: cover;
+    height: 200px;
+}
